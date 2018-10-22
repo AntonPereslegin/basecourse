@@ -8,7 +8,9 @@ package week1;
 public class Task1 {
     public static void main(String[] args) {
         int time = Integer.parseInt(args[0]);
-
+        if(time >= 9 && time <= 18 ){
+            System.out.println("Я на работе");
+        }
 //      Yours code...
     }
 }
